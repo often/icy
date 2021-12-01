@@ -1,0 +1,111 @@
+html {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+body {
+  background: var(--background-color);
+}
+
+body, input, select {
+  font-family: var(--font-family);
+}
+
+img {
+  max-width: 100%;
+  height: 200px;
+  animation: float 2s infinite;
+}
+
+main {
+  max-width: 500px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+h1, span {
+  word-break: break-word;
+}
+
+h1 {
+  font: var(--h1-font-size) var(--h1-font-family);
+  color: var(--theme-color);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+main {
+  display: none;
+}
+
+section, footer {
+  margin: 20px 0;
+}
+
+div {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+div, input, select {
+  margin-top: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+input, span {
+  border-bottom: 3px solid var(--theme-color);
+}
+
+input {
+  background: transparent;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-bottom: 3px solid transparent;
+}
+
+select {
+  background: var(--theme-color);
+}
+
+select, a {
+  color: inherit;
+}
+
+input:focus, select:focus {
+  outline: 3px dotted var(--theme-color);
+}
+
+span {
+  display: inline-block;
+}
+
+::selection {
+  background: var(--theme-color);
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(20px);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  select {
+    color-scheme: dark;
+  }
+}
