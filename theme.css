@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('fonts/Outfit/Outfit-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Comforter';
+  src: url('fonts/Comforter/Comforter-Regular.woff2') format('woff2');
+}
+
+:root {
+  --font-family: 'Outfit', sans-serif;
+  --h1-font-family: 'Comforter', cursive;
+  --h1-font-size: 100px;
+  --background-color: #c7ecee;
+  --theme-color: #22a6b3;
+}
