@@ -78,12 +78,12 @@ fetch(instance)
 
       const fromParam = url.searchParams.get('from')
 
-      if (fromParam) from.value = fromParam.toUpperCase()
+      if (fromParam && currencies[fromParam]) from.value = fromParam.toUpperCase()
       else from.value = 'USD'
 
       const toParam = url.searchParams.get('to')
 
-      if (toParam) to.value = toParam.toUpperCase()
+      if (toParam && currencies[toParam]) to.value = toParam.toUpperCase()
       else to.value = 'EUR'
 
       url.searchParams.set('from', from.value)
