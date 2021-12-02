@@ -92,7 +92,7 @@ fetch(instance)
 
       const amountParam = url.searchParams.get('amount')
 
-      if (Number(amountParam))
+      if (amountParam && Number(amountParam))
       {
         amount.value = amountParam
         convert()
