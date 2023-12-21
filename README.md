@@ -34,7 +34,7 @@ Once they visit that URL, no further interaction with the website is required. *
 Everything else is handled locally, via client-side.
 
 ## Self-hosting
-Sure! Get the source code from the [releases](https://github.com/often/icy/releases) page and place it in your public website directory.
+Sure! Get the source code by cloning this repository or by downloading it as a ZIP file. After that, simply place the files in your public website directory.
 
 ## License
 The entire project is licensed under [GPL-3.0](LICENSE).
