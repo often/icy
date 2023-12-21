@@ -20,7 +20,7 @@ It has almost everything to offer that you would expect from a currency converte
 
 The URL search parameters support is there to make **icy** more flexible and accessible via direct URLs.
 
-So, for example, you have got a friend and you send them this URL: https://icy.sany.one?amount=1337&from=EUR&to=USD
+So, for example, you have got a friend and you send them this URL: https://often.github.io/icy/?amount=1337&from=EUR&to=USD
 
 Once they visit that URL, no further interaction with the website is required. **icy** will convert **1337 EUR** to **USD**.
 
